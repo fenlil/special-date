@@ -40,7 +40,6 @@ const updateClock = () => {
   } else {
     counterDays = daysInMonth(11, newDate.getFullYear() - 1);
   }
-  console.log('abr', daysInMonth(11, newDate.getFullYear - 1));
 
   const counterTime = [
     counterYear,
